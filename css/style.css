@@ -1,0 +1,626 @@
+
+/*
+	Author : M. Rizki Fahrizal;
+	Date Created : 01 December 2017;
+
+*/
+/*style default*/
+body{
+	margin: 0;
+	font-family: 'Ostrich Sans';
+	font-size: 14px;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.container-box	{
+	width: auto !important;
+	margin: 0 auto;
+}
+
+.main{
+	width: 1100px;
+	margin: 0 auto;
+}
+
+.clear {
+	float: none;
+	clear: both;
+}
+
+/*header panel*/
+.header
+{
+	padding-top: 15px;
+}
+
+.header .logo	{
+	float: left;
+}
+
+.header .navigation	{
+	float: right;
+
+}
+
+.header .navigation ul	{
+	list-style: none;
+	margin: 35px 0;
+	padding: 0;
+}
+
+.header .navigation ul li	{
+	display: inline-block;
+	font-size: 24px;
+	font-family: "Ostrich Sans";
+}
+
+.header .navigation ul li a {
+	padding: 0 20px;
+	text-decoration: none;
+	color: #000000;
+}
+
+.header .navigation ul li a:hover {
+	font-family: 'Ostrich Sans heavy';
+	font-size: 23px;
+
+}
+
+/*banner pannel*/
+
+.banner	{
+	background: url('../images/banner.png') no-repeat center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding: 100px;
+	font-family: 'Ostrich Sans heavy';
+	font-size: 22px;
+	color: #4d4d52;
+	text-align: center;
+}
+
+.banner h1	{
+	margin-bottom: 20px;
+}
+
+.button-default	{
+	font-family: 'Ostrich Sans medium';
+	font-size: 25px;
+	color: #4d4d52;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px ;
+	border: solid 1px #4d4d52;
+	margin: 0;
+}
+
+.button-default:hover	{
+	background: #4d4d52;
+	color: #ffffff;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-ms-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+}
+
+/*about pannel */
+
+.about	{
+	padding: 25px 0;
+}
+
+
+.about .head .title	{
+	font-family: 'Ostrich Sans black';
+	font-size: 36px;
+	color: #4d4d52;
+	text-align: center;
+}
+
+.about .head .desc	{
+	font-family: 'Ostrich Sans black';
+	font-size: 18px;
+	color: #4d4d52;
+	text-align: center;
+}
+
+.about .head hr {
+	border: 0;
+	border-bottom: solid 2px #f6f5f5;	
+}
+
+.about .head .line {
+	width: 300px;
+}
+
+.about .content{
+	margin-top: 30px;
+}
+
+.about .content .content-list{
+	float: left;
+	padding: 45px;
+	width: 25%;
+	text-align:center;
+	box-sizing:content-box;
+}
+
+.about .content .content-list p{
+	color: #4d4d52;
+	font-size: 14px;
+}
+
+.about .content .content-list .content-body	{
+	margin-bottom: 10px;
+}
+
+.about .content .content-list .content-body .hand	{
+	padding-top: 30px;
+}
+
+.about .content .content-list .content-title{
+	font-family: 'Ostrich Sans black';
+	font-size: 18px;
+	color: #4d4d52;
+}
+
+/*subscribe*/
+
+.subscribe	{
+	padding: 40px;
+	background-color: #393939;
+	background-size: cover;
+	border-top: 5px solid #e2e2e3;
+	border-bottom: 10px solid #e2e2e3;
+}
+
+.subscribe	.title {
+	float: left;
+	font-family: 'Ostrich Sans black';
+	font-size: 42px;
+	color: #ffffff;
+	padding-left: 110px;
+}
+
+.subscribe .btn-position	{
+	padding-right: 150px;
+	margin-top: 10px;
+}
+
+.button-subscribe	{
+	float: right;
+	font-family: 'Ostrich Sans heavy';
+	font-size: 25px;
+	color: #ffffff;
+	text-decoration: none;
+	display: inline-block;
+	padding: 0 40px ;
+	border: solid 2px #ffffff;
+	margin: 0;
+
+}
+
+.button-subscribe:hover	{
+	background: #ffffff;
+	color: #393939;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-ms-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+}
+
+/*services panel*/
+
+.services	{
+	padding: 25px 0;
+}
+
+
+.services .title	{
+	font-family: 'Ostrich Sans black';
+	font-size: 36px;
+	color: #4d4d52;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.services .list-services{
+	background: #a9c9af;
+	padding: 25px;
+	float: left;
+	width: 42%;
+	margin-left: 25px;
+	margin-bottom: 40px;
+	box-sizing:content-box;
+}
+
+.services .list-services:last-child{
+	float: right;
+	background: #c8abab;
+	margin-left: 0px;
+	margin-right: 25px;
+}
+
+.services .list-services h2{
+	font-family: 'Ostrich Sans black';
+	font-size: 30px;
+	color: #ffffff;
+	margin-top: 0;
+}
+
+.services .list-services .text{
+	font-family: 'Ostrich Sans medium';
+	font-size: 18px;
+	color: #ffffff;
+	line-height: 10px;
+}
+
+.button-services	{
+	font-family: 'Ostrich Sans heavy';
+	font-size: 25px;
+	color: #ffffff;
+	text-decoration: none;
+	display: inline-block;
+	padding: 0 20px ;
+	border: solid 2px #ffffff;
+	margin: 0;
+}
+
+.button-services:hover	{
+	background: #ffffff;
+	color: #a9c9af;
+}
+
+.list-services:last-child .button-services:hover	{
+	color: #c8abab;
+}
+
+.services  hr {
+	border: 0;
+	border-bottom: solid 2px #f6f5f5;	
+	overflow: auto;
+}
+
+.services .line {
+	width: 1000px;
+}
+
+/*contact panel*/
+
+.contact	{
+	padding: 25px 0;
+}
+
+
+.contact .head .title	{
+	font-family: 'Ostrich Sans black';
+	font-size: 36px;
+	color: #4d4d52;
+	text-align: center;
+}
+
+.contact .head .desc	{
+	font-family: 'Ostrich Sans black';
+	font-size: 18px;
+	color: #4d4d52;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.contact .map{
+	padding: 0;
+	float: left;
+	width: 53%;
+	height: 400px;
+	margin-left: 25px;
+	margin-bottom: 40px;
+}
+
+ #map {
+        height: 100%;
+      }
+
+.contact .form	{
+	float: right;
+	width: 40%;
+	margin-bottom: 40px;
+	margin-right: 25px;
+	box-sizing:content-box;
+}
+
+.contact .form label	{
+	font-family: 'Ostrich Sans black';
+	font-size: 20px;
+	margin-bottom: 0;
+}
+
+.contact .form .form-group	{
+	margin-bottom: 10px;
+}
+
+.button-form	{
+	font-family: 'Ostrich Sans heavy';
+	font-size: 25px;
+	color: #393939;
+	background: #ffffff;
+	text-decoration: none;
+	display: inline-block;
+	padding: 0 20px ;
+	border: solid 2px #393939;
+	margin: 0;
+	cursor: pointer;
+}
+
+.button-form:hover{
+	background: #393939;
+	color: #ffffff;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-ms-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+	outline: none;
+}
+
+.footer	{
+	background: #131313;
+	padding: 20px 0;
+	font-family: 'Ostrich Sans heavy';
+	font-size: 20px;
+	text-align: center;
+	color: #ffffff;
+}
+
+/* responsive */
+
+@media screen and (max-width: 1100px){
+	.main{
+	width: auto;
+	margin: 0 auto;
+	padding: 0 20px;
+	}
+
+	.about .content .content-list	{
+		padding: 40px;
+	}
+
+	.services .line {
+		width: 100%;
+	}
+
+}
+
+@media screen and (max-width: 1050px){
+
+	.subscribe	.title{
+		font-size: 37px;
+		
+	}
+
+	.subscribe .btn-position	{
+		margin-top: 5px;
+	}
+
+	.services .list-services	{
+		width: 41%;
+	}
+
+	.button-services	{
+		font-size: 22px;
+	}
+
+	.button-default	{
+		font-size: 22px;
+	}
+}
+
+@media screen and (max-width: 1016px){
+
+	.about .content .content-list	{
+		padding: 39px;
+		width: 25%;
+	}
+}
+
+@media screen and (max-width: 992px){
+	.about .content .content-list	{
+	    padding: 35px;
+   	 	width: 25%;
+   	 }
+}
+
+@media screen and (max-width: 900px){
+	.about .content .content-list	{
+		width: 100%;
+		padding: 10px 0;
+	}
+
+	.about .content .content-list .content-body .hand	{
+		padding-top: 0;
+	}
+
+	.services .list-services	{
+		width: 100%;
+		padding: 20px 0;
+		margin-left: 0px;
+		text-align: center;
+	}
+
+	.services .list-services:last-child	{
+		margin-right: 0;
+	}
+
+	.button-services	{
+		font-size: 18px;
+	}
+
+	.subscribe	.title{
+		font-size: 30px;
+		padding-left:50px;
+	}
+
+	.button-subscribe	{
+		font-size: 20px;
+	}
+
+	.subscribe .btn-position	{
+		padding-right: 100px;
+	}
+
+	.contact .map{
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 770px){
+
+	.subscribe .btn-position	{
+		padding-right: 0;
+	}
+
+	.subscribe	.title{
+		padding-left: 0;
+	}
+}
+
+@media screen and (max-width: 668px){
+	.banner h1	{
+		font-size: 30px;
+	}
+
+	.button-default	{
+		font-size: 18px;
+	}
+
+	.services{
+		padding-bottom: 0;
+	}
+
+	.contact .map{
+		float: none;
+		width: 100%;
+		margin: 10px 0px;
+		height: 250px;
+	}
+
+	.contact .form	{
+		float: none;
+		width: 100%;
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 555px){
+	.header .navigation ul{
+		margin: 30px 0;
+	}
+
+	.button-services	{
+		font-family: 'Ostrich Sans';
+	}
+
+	.subscribe	.title{
+		float: none;
+		padding: 0;
+		text-align: center;
+	}
+
+	.button-subscribe	{
+		float: none;
+	}
+	.btn-position	{
+		text-align: center;
+	}
+
+}
+
+@media screen and (max-width: 550px){
+	.banner h1	{
+		font-size: 25px;
+	}
+
+	.button-default	{
+		font-size: 16px;
+	}
+
+	.about .head .title {
+		font-size: 30px;
+	}	
+
+	.services .title {
+		font-size: 30px;
+	}
+
+	.contact .head .title {
+		font-size: 30px;
+	}
+
+	.contact .form label	{
+		font-size: 18px;
+	}
+
+	.button-form	{
+		font-size: 18px;
+	}
+
+	.header .logo	{
+		float: none;
+		text-align: center;
+	}
+
+	.header .navigation	{
+		float: none;
+		text-align: center;
+	}
+
+	.header .navigation ul li {
+		font-size: 22px;
+	}
+
+	.header .navigation ul li a:hover {
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 410px){	
+
+	.header .navigation ul li {
+		font-size: 18px;
+	}
+
+	.header .navigation ul li a:hover {
+		font-size: 16px;
+	}
+
+	.header .navigation ul li a {
+		padding: 0 16px;
+	}
+
+	.footer {
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 386px){
+
+	.banner h1 {
+		font-size: 22px;
+	}
+
+	.button-default {
+		font-size: 14px;
+	}
+
+	.about .head .desc {
+		font-size: 16px;
+	}
+
+	.contact .head .desc {
+		font-size: 16px;
+	}
+}	
